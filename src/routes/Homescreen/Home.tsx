@@ -66,7 +66,7 @@ function Home({navigation}: any) {
             />
           </View>
         ) : (
-          <NodataFoundComponent />
+          <NodataFoundComponent retry={()=> {callApi()}}/>
         )}
       </View>
       <Button

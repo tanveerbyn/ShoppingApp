@@ -12,15 +12,16 @@ const Counter = () => {
       <CounterContext.Consumer>
         {({count, increment, decrement}) => (
           <View style={styles.innerContainer}>
-            <TouchableOpacity onPress={increment} style={styles.CounterBTN}>
-              <Text style={styles.textCounterBtn}>+</Text>
+           <TouchableOpacity onPress={decrement} style={styles.CounterBTN}>
+              <Text style={styles.textCounterBtn}>-</Text>
             </TouchableOpacity>
             <Text style={[styles.textCounterBtn, {marginHorizontal: 20}]}>
               Counter: {count}
             </Text>
-            <TouchableOpacity onPress={decrement} style={styles.CounterBTN}>
-              <Text style={styles.textCounterBtn}>-</Text>
+             <TouchableOpacity onPress={increment} style={styles.CounterBTN}>
+              <Text style={styles.textCounterBtn}>+</Text>
             </TouchableOpacity>
+            
           </View>
         )}
       </CounterContext.Consumer>

@@ -1,8 +1,8 @@
-export interface ProductListItemObj {
+export type ProductListItemObj = {
   item: ProductObj;
   index: number;
 }
-export interface ProductObj {
+export type ProductObj = {
   id: string;
   brand: string;
   thumbnail: string;
