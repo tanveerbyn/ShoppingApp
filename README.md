@@ -26,7 +26,7 @@ npx react-native run-android
 npm react-native run-ios
 
 APK LINK
-
+https://drive.google.com/file/d/1_wkWONSKAIQLg_TwWnqDA3q4wf8Viz4m/view?usp=drive_link
 
 
 
